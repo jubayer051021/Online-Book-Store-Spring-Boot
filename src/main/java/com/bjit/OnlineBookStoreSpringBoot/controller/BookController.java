@@ -39,12 +39,12 @@ public class BookController {
 
 //    5. see Specific authorName BookList
     @GetMapping("/author/{authorName}")
-    public ResponseEntity<Object> bookDetails(@PathVariable String authorName) {
+    public ResponseEntity<Object> bookNameAuthor(@PathVariable String authorName) {
         return bookService.getAuthorName(authorName);
     }
 
     @GetMapping("/author/{authorName}/{bookName}")
-    public ResponseEntity<Object> bookDetails(@PathVariable String authorName,@PathVariable String bookName) {
+    public ResponseEntity<Object> bookDetailsAuthorBookName(@PathVariable String authorName,@PathVariable String bookName) {
         return bookService.getBookByAuthorName(authorName,bookName);
     }
     @PutMapping("/update/{id}")
