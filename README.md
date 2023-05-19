@@ -67,6 +67,7 @@ My goal is to design and develop an Online Book Library application. This applic
 **Method** :`DELETE`
 
 **Output**:
+
 ![8](https://github.com/jubayer051021/Online-Book-Store-Spring-Boot/assets/131146334/e47f437d-4c5e-4127-ad68-fcf83f447a94)
 
 ### 5. update Book
@@ -107,6 +108,7 @@ My goal is to design and develop an Online Book Library application. This applic
 **Method** :`GET`
 
 **Output**:
+
 ![7](https://github.com/jubayer051021/Online-Book-Store-Spring-Boot/assets/131146334/a8f8eb3d-2531-4997-b4fb-0f7474b7e16b)
 
 ## Contributors
